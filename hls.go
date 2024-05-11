@@ -68,3 +68,8 @@ func (pl *Playlist) WriteInf(inf PlaylistInf) (err error) {
 	pl.tsCount++
 	return
 }
+
+func (pl *Playlist) WriteEndList() (err error) {
+	_, err = fmt.Fprintln(pl, "#EXT-X-ENDLIST")
+	return
+}
