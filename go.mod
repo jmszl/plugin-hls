@@ -19,7 +19,6 @@ require github.com/bluenviron/mediacommon v1.5.1 // indirect
 
 require (
 	github.com/cnotch/ipchub v1.1.0 // indirect
-	github.com/deepch/vdk v0.0.27 // indirect
 	github.com/denisbrodbeck/machineid v1.0.1 // indirect
 	github.com/go-ole/go-ole v1.2.6 // indirect
 	github.com/go-task/slim-sprig v0.0.0-20230315185526-52ccab3ef572 // indirect
